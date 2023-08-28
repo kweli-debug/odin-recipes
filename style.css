@@ -4,6 +4,7 @@
 body {
     background-color: slategrey;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
 h1 {
@@ -11,11 +12,17 @@ h1 {
     font-weight: 400;
     color: gold;
     text-shadow: cyan;
+    text-align: center;
 }
 
 ul {
     font-weight: 700;
     font-size: 30px;
     background-color: gold;
-    text-align: center;
+}
+
+button {
+    display: block;
+    margin: auto;
+    padding: 5px;
 }

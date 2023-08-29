@@ -4,7 +4,6 @@
 body {
     background-color: slategrey;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
 }
 
 h1 {
@@ -15,14 +14,36 @@ h1 {
     text-align: center;
 }
 
-ul {
-    font-weight: 700;
-    font-size: 30px;
-    background-color: gold;
+.flex-container {
+    height:30px;
+    padding: 10px;
+    border: 2px dashed gold;
+    display: flex;
+    justify-content: center;
+    gap: 9px;
+}
+
+.item {
+    background-color: darkturquoise;
+    padding: 4px;
+    align-self: center;
+    border: 6px dashed slategray;
 }
 
 button {
-    display: block;
-    margin: auto;
-    padding: 5px;
+    background-color: tan;
+}
+
+.let-him-cook {
+    text-align: center;
+    color: gold;
+    font-weight: 100;
+    font-style: italic;
+    
+}
+#img-move {
+    width: 1000px;
+    height: auto;;
+    display: flex;
+    flex-direction: column;
 }
